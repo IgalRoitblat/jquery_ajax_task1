@@ -1,0 +1,52 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 3rem; 
+}
+
+input {
+	-webkit-appearance:none;
+	height: 3rem;
+	width: 20rem;
+	border: none;
+	padding: 1rem;
+	font-size: 1rem;
+}
+
+label span {
+	display: block;
+	margin: 1rem;
+}
+
+.flag {
+	height: 15rem;
+	width: 100%;
+	background-size: cover;
+}
+
+.countryContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	justify-content: center;
+	width: 25%;
+	border: 1px solid #666;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.countryInfo {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1rem;
+}
+
+.countryInfo span {
+	width: 100%;
+}
